@@ -1,12 +1,12 @@
 console.log('in private dot js');
 
-const signedIn = sessionStorage.getItem('signedIn');
+const lasagna = sessionStorage.getItem('lasagna');
 
 
-if(signedIn === 'true'){
-    console.log('ye,s singed in');
+if(lasagna === 'true'){
+    console.log('yes signed in');
 }
 else{
-    console.log('no, not sinage in');
+    console.log('no, not signed in');
     window.location.href = 'signin.html'
 }
