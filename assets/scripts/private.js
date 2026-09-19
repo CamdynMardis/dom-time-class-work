@@ -1,6 +1,6 @@
 console.log('in private dot js');
 
-const lasagna = sessionStorage.getItem('lasagna');
+const lasagna = sessionStorage.getItem('signedIn');
 
 
 if(lasagna === 'true'){
